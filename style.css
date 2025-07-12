@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(8, 1, 45, 0.914);
+}
+
+.hr{
+    width: 50vw;
+    max-width: 50vw;
+    height: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.grand_parents{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.parents{
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    border-radius: 30px;
+    max-width:  1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child_1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.hr_1{
+    width: 70vw;
+    margin: auto;
+    height: 7px;
+    background-color: rgb(253, 253, 253);
+    max-width: 1200px;
+    border: none;
+    border-radius: 30px;
+}
+
+.child_2{
+
+    width: 80%;
+    margin: auto;
+    
+    background-color: rgba(21, 20, 27, 0.914);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(176, 174, 174);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pre{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.pre:hover{
+    background-color: rgb(31, 3, 3);
+    border: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
+.child_3{
+    background-color: rgb(17, 7, 46);
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+
+.son_1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr_2{
+    margin-left: 7.5vw;
+    width: 30vw;
+    max-width:99%;
+}
+.input_1{
+    padding: 10px;
+    background-color: rgb(64, 64, 103);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.inv_1{
+    width: fit-content;
+    max-width: 100%;
+}
+
+.son_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.hr_3{
+    width: 30vw;
+    max-width: 98%;
+}
+.h{
+    max-width: 80%;
+}
+
+.son_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.hr_4{
+    width: 30vw;
+    max-width: 98%;
+}
+
+.son_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.hr_5{
+    margin-left: 35px;
+    width: 30vw;
+    max-width: 98%;
+}
+
+
+.son_5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.input_6 {
+    background-color: rgb(39, 36, 36);
+    color: white;
+    width: 98%;
+    max-width: 100%;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.butt{
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: larger;
+    font-weight: 900;
+    transition: transform 0.3s ease-in-out;
+}
+.butt:hover{
+    background-color: rgba(8, 1, 45, 0.914);
+    color: white;
+    border: 2px solid blue;
+    transform: scale(1.05);
+    transition-duration: 0.8s;
+}
+
+
+@media screen and (max-width: 768px) {
+    .B{
+        font-size: 25px!important;
+        padding-top: 10px;
+    }
+    .grand_parents{
+        display: flex;
+        justify-content: center;
+    }
+    .child_2{
+        height: 35px;
+    }
+
+  .parents {
+    margin-top: 50px;
+    margin-bottom: -100px;
+    width: 80vw;
+    height: auto;
+    padding: 10px;
+  }
+
+  
+
+  .child_1 h1,
+  .child_2 h1,
+  .pre h1 {
+    font-size: 1.2rem;
+  }
+
+  .child_2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .child_3 {
+    width: 95%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .son_1,
+  .son_2,
+  .son_3,
+  .son_4,
+  .son_5 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100vw;
+  }
+
+  .input_6{
+    width: 92%;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .butt {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+}

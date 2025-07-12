@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="grand_parents">
+        <div class="parents">
+
+            <div class="child_1">
+                <h1 class="B">🧠 Headache Diary</h1>
+            </div>
+
+            <hr class="hr_1">
+
+            <div class="child_2"
+                style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+                <div class="tex">
+                    <h3>Entry-form</h3>
+                </div>
+                <div class="prev">
+                    <a
+                        href="https://docs.google.com/spreadsheets/d/17UQQyD3sMXKZz-eWGueYDIl68PNADWTDWAZrdO2263A/edit?usp=sharing">
+                        <button class="pre">
+                            <h4><b>⎗</b> Preview</h4>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="child_3">
+
+                <div class="son_1">
+
+                    <div class="int_1">
+                        <h2>Date</h2>
+                    </div>
+
+                    <div class="h">
+                        <hr class="hr_2 hr">
+                    </div>
+
+                    <div class="inv_1">
+                        <input type="date" class="input_1" id="date" value="">
+                    </div>
+                </div>
+
+                <div class="son_2">
+
+                    <div class="int_2">
+                        <h2>Starting time</h2>
+                    </div>
+
+                    <div class="h">
+                        <hr class="hr_3 hr">
+                    </div>
+
+                    <div class="inv_2 time-wrapper">
+
+                        <input type="time" title="Enter start time..." class="input_2" id="start-time" value="">
+                    </div>
+
+                </div>
+
+                <div class="son_3">
+                    <div class="int_3">
+                        <h2>Ending time</h2>
+                    </div>
+
+                    <div class="h">
+                        <hr class="hr_4 hr">
+                    </div>
+
+                    <div class="inv_4 time-wrapper">
+
+                        <input type="time" title="Enter end time..." class="input_3" id="end-time" value="">
+                    </div>
+                </div>
+
+                <div class="son_4">
+                    <div class="int_3">
+                        <h2>Pain Level</h2>
+                    </div>
+
+                    <div class="h">
+                        <hr class="hr_5 hr">
+                    </div>
+
+                    <div class="inv_5">
+                        <select id="pain_level" class="input_4">
+                            <option disabled selected>Select pain level</option>
+                            <option value="1">1 – Very Mild</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 – Moderate</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10 – Worst Pain</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="son_5">
+
+                    <div class="int_5">
+                        <h2>Taken medicine</h2>
+                    </div>
+
+                    <div class="h">
+                        <hr class="hr_3 hr">
+                    </div>
+
+                    <div class="inv_5">
+                        <input type="text" placeholder=" e.g paracitamol etc..." class="input_5" id="medicine">
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="son_6">
+
+                    <div class="inv_6">
+                        <textarea id="notes" class="input_6" placeholder="Trigger or comments..."></textarea>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="child_4">
+
+                <button class="butt" id="submit" type="submit">Submit</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
